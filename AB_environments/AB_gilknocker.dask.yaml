@@ -8,6 +8,9 @@
 
 # Leave empty if you don't want to override anything.
 
-# distributed:
-#   scheduler:
-#     worker-saturation: 1.2
+distributed:
+  admin:
+    system-monitor:
+      gil-contention: true
+  # scheduler:
+  #   worker-saturation: 1.2

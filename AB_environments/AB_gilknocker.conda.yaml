@@ -13,6 +13,6 @@ dependencies:
     - python=3.9
     - coiled-runtime=0.2.1
     - pip:
-      - gilknocker
+      - gilknocker==0.3.0
       - dask==2023.3.1
       - git+https://github.com/dask/distributed@6c85a0ce8c0f711388db9bfcb0439be78f191537
